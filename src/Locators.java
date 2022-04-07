@@ -55,6 +55,9 @@ public class Locators {
 // 4. for Input[placeholder='Username']  -> //tagname[@attribute='value']:nth-child(index) -> Child items
 // 5. parenttagname childtagname
 // 6. input[type*='pass']
+// 7. tagname
+// 8. No element is identified based upon the text
+// 9. Child to parent is not possible -> disadvantage
 
 // For Xpath
 
@@ -62,3 +65,5 @@ public class Locators {
 //  2. "//parenttagname/childtagname"
 //  3. "//tagname[@attribute='value'][index]"
 //  4. "//button[contains(@class,'submit')]"  -> Regular Expression
+//  5.  if you want to treat tagname as a Xpath -> //tagname   or you can simply use as a tagname attribute
+//  6.  Identified the element based upon the text -> //button[text()='Log Out']
