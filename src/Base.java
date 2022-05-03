@@ -92,3 +92,17 @@ public class Base {
 // No Performance issues
 //More code to add
 
+
+//There is another explicit wait mechanism type called Fluent Wait
+//Explicit Wait can be achieved in 2 ways : WebDriverWait = 10sec and FluentWait = 10 sec , Polling 2sec
+// How different it is from WebDriver Wait?
+// Fluent Wait finds the web element repeatedly at regular intervals of time until the timeout or till the object gets found .
+// Unlike WebDriver wait, we need to build customised wait methods based on condition
+// both WebDriver Wait and FluentWait classes implement Wait Interface
+//Code made some complex to write---disadvantage
+
+//Main Differences in Explicit and Implicit Wait
+
+//Explicit wait is applied to a particular element of a page, while implicit wait is a global wait.
+//Explicit wait targets a specific test scenario, while implicit wait is applicable to all the scenarios in the test suite
+//Implicit wait makes test execution slow, while explicit wait does not effect the speed of the execution
