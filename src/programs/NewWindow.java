@@ -46,11 +46,17 @@ public class NewWindow {
 		name.sendKeys(courseName);
 		
 		//Scenario 2: Capture WebElement Screenshot using Selenium
-		//Get Height Width of Web Element using Selenium
+		
 		File file = name.getScreenshotAs(OutputType.FILE);
 		
 		FileUtils.copyFile(file, new File("logo.png"));
 		//driver.quit();
+		
+		//Scenario 3 : Get Height Width of Web Element using Selenium
+		//you can define it by rectangular getRect() and dimensions getDimension() method
+		
+		System.out.println(name.getRect().getDimension().getHeight());
+		System.out.println(name.getRect().getDimension().getWidth());
 		
 		
 		
