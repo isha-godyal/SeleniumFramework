@@ -16,5 +16,79 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/isha.godyal/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar" sourcepath="C:/Users/isha.godyal/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="commons-io"/>
+			<attribute name="maven.artifactId" value="commons-io"/>
+			<attribute name="maven.version" value="2.11.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/isha.godyal/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar" sourcepath="C:/Users/isha.godyal/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.aventstack"/>
+			<attribute name="maven.artifactId" value="extentreports"/>
+			<attribute name="maven.version" value="5.0.9"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/isha.godyal/.m2/repository/net/jodah/failsafe/2.4.4/failsafe-2.4.4.jar" sourcepath="C:/Users/isha.godyal/.m2/repository/net/jodah/failsafe/2.4.4/failsafe-2.4.4-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="net.jodah"/>
+			<attribute name="maven.artifactId" value="failsafe"/>
+			<attribute name="maven.version" value="2.4.4"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/isha.godyal/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar" sourcepath="C:/Users/isha.godyal/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.codehaus.groovy"/>
+			<attribute name="maven.artifactId" value="groovy"/>
+			<attribute name="maven.version" value="3.0.8"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/isha.godyal/.m2/repository/junit/junit/4.12/junit-4.12.jar" sourcepath="C:/Users/isha.godyal/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="junit"/>
+			<attribute name="maven.artifactId" value="junit"/>
+			<attribute name="maven.version" value="4.12"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/isha.godyal/.m2/repository/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar" sourcepath="C:/Users/isha.godyal/.m2/repository/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="net.sourceforge.jexcelapi"/>
+			<attribute name="maven.artifactId" value="jxl"/>
+			<attribute name="maven.version" value="2.6.12"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/isha.godyal/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar" sourcepath="C:/Users/isha.godyal/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="org.testng"/>
+			<attribute name="maven.artifactId" value="testng"/>
+			<attribute name="maven.version" value="6.14.3"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/isha.godyal/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar" sourcepath="C:/Users/isha.godyal/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.testng"/>
+			<attribute name="maven.artifactId" value="testng"/>
+			<attribute name="maven.version" value="6.9.10"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
