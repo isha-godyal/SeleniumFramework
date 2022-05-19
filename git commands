@@ -1,0 +1,9 @@
+  1 git status
+   2 git add filename(if single file need to be commited)
+   3 git add .       (all file will staged for commit)
+   4 git status
+   5 git commit -m "Global Environmental Var"
+   6 git log
+   7 git pull --rebase origin master
+   8 git branch
+   9 git push origin master
